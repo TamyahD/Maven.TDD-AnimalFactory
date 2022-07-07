@@ -18,7 +18,7 @@ public class AnimalFactoryTest {
         //TODO - Create Test for `Animal createDog(String name, Date birthDate)`
         //Given
         String expectedName = "Bingo";
-        Date expectedBirthDate = new Date();
+        Date expectedBirthDate = new Date(987654321);
 
         //When
         Dog doggoB = AnimalFactory.createDog(expectedName, expectedBirthDate);
@@ -34,7 +34,7 @@ public class AnimalFactoryTest {
         //TODO - Create Test for `Animal createCat(String name, Date birthDate)`
         //Given
         String expectedName = "Bagheera";
-        Date expectedDate = new Date();
+        Date expectedDate = new Date(123456789);
 
         //When
         Cat gato = AnimalFactory.createCat(expectedName, expectedDate);
